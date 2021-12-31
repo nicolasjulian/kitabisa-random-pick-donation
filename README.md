@@ -7,3 +7,6 @@ Contoh menambahkan script tersebut di crontab, agar bot telegram berjalan setiap
 30 06 * * * /bin/bash /home/nicolas/alert-kitabisa-donasi-daily.sh
 ```
 ![Contoh Integrasi dengan BOT](./Screenshot-Telegram.png)
+
+#### Random donation Range
+Range donasi bisa dirubah pada variable `pick_random_donation_amount`
